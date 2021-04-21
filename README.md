@@ -19,13 +19,13 @@ Each color is vulnerable to only 2 of the 6 possible exploits. First discover wh
 
 Vulnerability #1: SQL Injection (SQLi)
 
-Description:
+Description: Proved that database could be accessed
 
 <img src="BLUE1.gif">
 
 Vulnerability #2: Session Hijacking/Fixation
 
-Description:
+Description: Logined from different location after using the same sessionID
 
 <img src="BLUE2.gif">
 
@@ -33,13 +33,13 @@ Description:
 
 Vulnerability #1: Cross-Site Scripting (XSS)
 
-Description:
+Description: Caused an alert through XSS
 
 <img src="GREEN1.gif">
 
 Vulnerability #2: Username Enumeration
 
-Description:
+Description: The bolded login and unbolded login are visible differences for usernames that are in the database
 
 <img src="GREEN2.gif">
 
@@ -48,13 +48,13 @@ Description:
 
 Vulnerability #1: Insecure Direct Object Reference (IDOR)
 
-Description:
+Description: Accessed unreleased Object
 
 <img src="RED1.gif">
 
 Vulnerability #2: Cross-Site Request Forgery (CSRF)
 
-Description:
+Description: Changed information and csrf token
 
 <img src="RED2.gif">
 
